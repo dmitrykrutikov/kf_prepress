@@ -50,9 +50,16 @@ html_theme = "rtcat_sphinx_theme"
 html_theme_path = ["_templates"]
 html_static_path = ["_templates/rtcat_sphinx_theme"]
 
-def setup(app):
-        app.add_stylesheet("css/badge_only.css")
-        app.add_stylesheet("css/theme.css")
+html_css_files = [
+    'css/badge_only.css',
+    'css/theme.css',
+]
+
+html_js_files = [
+    'js/modernizr.min.js',
+    'js/theme.js',
+]
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
