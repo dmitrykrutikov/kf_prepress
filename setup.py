@@ -1,42 +1,38 @@
 # -*- coding: utf-8 -*-
-"""`sphinx_minoo_theme` on `Github`_.
+"""`rtcat_sphinx_theme` lives on `Github`_.
 
-.. _github: https://github.com/saeiddrv/SphinxMinooTheme
+.. _github: https://github.com/RTCat/rtcat_sphinx_theme.git
 
 """
 from setuptools import setup
-from sphinx_minoo_theme import __version__
+from rtcat_sphinx_theme import __version__
 
 
 setup(
-    name = "sphinx_minoo_theme",
-    version = __version__.info(),
-    url = "https://github.com/saeiddrv/SphinxMinooTheme.",
-    license = "MIT",
-    author = "Saeid Darvishi",
-    author_email = "saeid.dq@gmail.com",
-    description = "A simple Sphinx theme with RTL language support.",
-    long_description = open("README.rst").read(),
-    zip_safe = False,
-    packages = ["sphinx_minoo_theme"],
-    package_data = {"sphinx_minoo_theme": [
-        "theme.conf",
-        "*.html",
-        "includes/*.html",
-        "static/*.css",
-        "static/*.js",
-        "static/*.jpg",
-        "static/fonts/*.*"
+    name='rtcat_sphinx_theme',
+    version=__version__,
+    url='https://github.com/RTCat/rtcat_sphinx_theme.git',
+    license='MIT',
+    author='Dave Snider, RealTimeCat',
+    author_email='dave.snider@gmail.com, info@learning-tech.com',
+    description=' Sphinx theme for http://docs.shishimao.com/',
+    long_description=open('README.rst').read(),
+    zip_safe=False,
+    packages=['rtcat_sphinx_theme'],
+    package_data={'rtcat_sphinx_theme': [
+        'theme.conf',
+        '*.html',
+        'static/css/*.css',
+        'static/js/*.js',
+        'static/font/*.*'
     ]},
-    include_package_data = True,
-    install_requires = open("requirements.txt").read().splitlines(),
-    classifiers = [
-        'Development Status :: 4 - Beta',
-        'License :: OSI Approved :: MIT License',
+    include_package_data=True,
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: BSD License',
         'Environment :: Console',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        "Intended Audience :: System Administrators",
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
