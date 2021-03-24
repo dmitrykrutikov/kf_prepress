@@ -48,7 +48,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "rtcat_sphinx_theme"
 
 html_theme_path = ["_templates"]
-html_static_path = ["_templates/rtcat_sphinx_theme"]
+html_static_path = ["_static"]
 
 html_css_files = [
     'css/badge_only.css',
