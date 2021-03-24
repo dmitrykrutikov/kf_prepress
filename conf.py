@@ -60,7 +60,7 @@ html_js_files = [
     'js/theme.js',
 ]
 
-html_style = 'theme.css'
+html_style = 'css/theme.css'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
