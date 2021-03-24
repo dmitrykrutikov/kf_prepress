@@ -45,7 +45,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 
-html_theme = "rtcat_sphinx_theme"
+html_theme = "sphinx_minoo_theme"
 
 html_theme_path = ["_templates"]
 
