@@ -12,5 +12,4 @@
    :hidden:
    :caption: Преперсс:
 
-   Препресс/Test
-   Препресс/Страница
+   prepress/test
