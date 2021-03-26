@@ -12,4 +12,6 @@
    :hidden:
    :caption: Преперсс:
 
-   prepress/test
+   prepress/scripts/scripts_list
+   prepress/scripts/pdf_presets_list
+..   prepress/test
