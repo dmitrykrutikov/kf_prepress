@@ -259,3 +259,7 @@ PDF пресет для скрипта **Сюжеты Polska 1.0.2**. Основ
        Color Conversion: Convert to Destination (Preserve Numbers)
        Destination: Coated FOGRA39 (ISO 12647-2:2004)
        Profile Inclusion Policy: Don't Include Profiles
+
+PDF версии 1.4 и PDF версии 1.3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+.. image:: /prepress/scripts/images/pdf_1.4vs1.3.jpg
