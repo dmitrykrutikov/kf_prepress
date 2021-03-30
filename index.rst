@@ -10,6 +10,6 @@
    :maxdepth: 2
    :caption: Преперсс:
 
-   prepress/scripts/scripts_list
-   prepress/scripts/pdf_presets_list
+   prepress/scripts/scripts-list
+   prepress/scripts/pdf-presets-list
 .. :hidden:   
